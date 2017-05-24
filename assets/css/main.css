@@ -253,3 +253,35 @@ footer {
     margin-bottom: 15px;
     font-size: 13px;
 }
+
+.redes-sociales {
+    margin-top: 5px;
+    margin-bottom: 21px;
+    font-size: 13px;
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+.los-links {
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.fa-facebook { 
+    color: blue;
+}
+
+.fa-twitter {
+    color: #58D3F7;
+}
+
+.fa-instagram {
+    color: #7D5656;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+    margin-left: 3px;
+    margin-bottom: 69px;
+}
