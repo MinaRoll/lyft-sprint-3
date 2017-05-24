@@ -18,9 +18,7 @@ body {
     color: white;
 }
 
-
 /* Estilos y coordenadas para el navbar */
-
 .barra {
     background-color: #E54E79;
     margin-top: 0;
@@ -42,11 +40,12 @@ body {
 
 ul {
     list-style: none;
+    margin-left: 1000px;
 }
 
 ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 ul li a {
@@ -55,7 +54,7 @@ ul li a {
     text-align: center;
     /*padding: 12.5px;*/
     text-decoration: none;
-   margin-right: 30px;
+
 }
 
 li a:hover {
@@ -63,9 +62,7 @@ li a:hover {
     color: whitesmoke;
 }
 
-
 /* Estilos para la card de header */
-
 .imagen-car {
     position: relative;
     top: 0;
@@ -105,9 +102,7 @@ li a:hover {
     margin-top: 8px;
 }
 
-
-/* Estilos para el input */
-
+/* Estilos y coordenadas para el input */
 input {
     width: 90%;
     padding: 12px 20px;
@@ -119,9 +114,7 @@ input {
     margin-top: 20px;
 }
 
-
-/* Estilos para el botón */
-
+/* Estilos y coordenadas para el botón */
 .boton-formulario {
     background-color: #E54E79;
     color: #EDE9E2;
@@ -153,9 +146,7 @@ input {
     display: block;
 }
 
-
-/* Estilos para play with lyft */
-
+/* Estilos y coordenadas para play with lyft */
 .play-with-lyft {
     background-color: whitesmoke;
     color: #75726C;
@@ -167,7 +158,6 @@ input {
 }
 
 /* Estilos y coordenadas para la caja */
-
 .caja-otra {
     position: relative;
     top: -20px;
@@ -214,7 +204,22 @@ input {
     position: relative;
 }
 
-/* Estilos para el footer */
+/* Estilos y coordenadas para el tablero */
+
+.tablero {
+    display: none;/*para que no se vea el tablero*/
+    background-color: #75726C;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    margin-left: 195px;
+}
+
+#el-tablero {
+    border: 5px solid #75726C;
+}
+
+/* Estilos y coordenadas para el footer */
 footer {
     position: absolute;
     background-color: #585858;
