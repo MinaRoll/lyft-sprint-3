@@ -104,3 +104,64 @@ li a:hover {
     font-size: 14px;
     margin-top: 8px;
 }
+
+
+/* Estilos para el input */
+
+input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #EDE9E2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+
+/* Estilos para el botón */
+
+.boton-formulario {
+    background-color: #E54E79;
+    color: #EDE9E2;
+    font-size: 13px;
+    width: 50%;
+    height: 30px;
+    margin-top: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.texto-final-caja {
+    color: #75726C;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.contenedor {
+    background-color: #00B2A9;
+    height: 600px;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+
+/* Estilos para play with lyft */
+
+.play-with-lyft {
+    background-color: whitesmoke;
+    color: #75726C;
+    position: relative;
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
