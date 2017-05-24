@@ -20,12 +20,11 @@ body {
 
 /* Estilos y coordenadas para el navbar */
 .barra {
+    width: 100%;
+    height: 70px;
     background-color: #E54E79;
     margin-top: 0;
-    width: 100%;
-    height: 80px;
     top: 0;
-    /*padding: 15px;*/
     position: fixed;
     z-index: 1;
 }
@@ -52,7 +51,6 @@ ul li a {
     display: inline-block;
     color: white;
     text-align: center;
-    /*padding: 12.5px;*/
     text-decoration: none;
 
 }
@@ -105,7 +103,7 @@ li a:hover {
 /* Estilos y coordenadas para el input */
 input {
     width: 90%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #EDE9E2;
@@ -205,7 +203,6 @@ input {
 }
 
 /* Estilos y coordenadas para el tablero */
-
 .tablero {
     display: none;/*para que no se vea el tablero*/
     background-color: #75726C;
@@ -219,14 +216,29 @@ input {
     border: 5px solid #75726C;
 }
 
+.posicion {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #E54E79;
+    color: whitesmoke;
+    padding: 20.8px;
+    font-family: sans-serif;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    border: 5px #75726C solid;
+}
+
 /* Estilos y coordenadas para el footer */
 footer {
     position: absolute;
     background-color: #585858;
-    margin-top: 770px;
+    margin-top: 750px;
     color: #EDE9E2;
     width: 100%;
     padding: 8px;
+    top: 1000px;
+
 }
 
 .el-footer {
@@ -243,7 +255,7 @@ footer {
 
 .ri-footer {
     float: right;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .up-footer {
