@@ -40,3 +40,67 @@ body {
     position: absolute;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /*padding: 12.5px;*/
+    text-decoration: none;
+   margin-right: 30px;
+}
+
+li a:hover {
+    background-color: #E54E79;
+    color: whitesmoke;
+}
+
+
+/* Estilos para la card de header */
+
+.imagen-car {
+    position: relative;
+    top: 0;
+    background-color: blue;
+    height: 700px;
+    background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+.caja {
+    position: absolute;
+    overflow: auto;
+    background-color: #EDE9E2;
+    margin-left: 1000px;
+    width: 410px;
+    height: 300px;
+    top: 200px;
+    right: 0;
+}
+
+.titulo-caja {
+    color: #00B2A9;
+    font-weight: bold;
+}
+
+.texto-caja {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.otro-titulo {
+    color: #75726C;
+    font-size: 14px;
+    margin-top: 8px;
+}
