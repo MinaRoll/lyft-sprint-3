@@ -165,3 +165,91 @@ input {
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* Estilos y coordenadas para la caja */
+
+.caja-otra {
+    position: relative;
+    top: -20px;
+    width: 100%;
+    margin-top: 10%;
+    overflow: auto;
+    background-color: #EDE9E2;
+    left: 195px;
+    width: 70%;
+    height: 250px;
+}
+
+/*Estilos y coordenadas para el boton start*/
+.boton-start {
+    background-color: #00B2A9;
+    color: #EDE9E2;
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 17px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 85px;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-start {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 35%;
+    cursor: pointer;
+}
+
+.el-auto {
+    color: #75726C;
+    margin-left: 55px;
+    position: relative;
+}
+
+/* Estilos para el footer */
+footer {
+    position: absolute;
+    background-color: #585858;
+    margin-top: 770px;
+    color: #EDE9E2;
+    width: 100%;
+    padding: 8px;
+}
+
+.el-footer {
+    background-color: #75726C;
+    position: absolute;
+    margin-top: 600px;
+    color: #EDE9E2;
+}
+
+.iz-footer {
+    float: left;
+    margin-left: 100px;
+}
+
+.ri-footer {
+    float: right;
+    margin-right: 50px;
+}
+
+.up-footer {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-right: 468.6px;
+    font-size: 16px;
+}
+
+.text-footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
